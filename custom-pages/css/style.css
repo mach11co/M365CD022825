@@ -1,0 +1,45 @@
+.heading h1 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.intro h2 {
+  font-style: italic;
+}
+
+.entry-item label {
+  font-weight: bold;
+}
+
+.entry-item #email {
+  display: block;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.entry-item #password {
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.buttons #next {
+  margin-top: 5px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+}
+
+.entry-item #forgotPassword {
+  text-decoration: underline;
+}
+
+.divider h2 {
+  font-style: italic;
+}
+
+.create #createAccount {
+  margin-left: 5px;
+  text-decoration: underline;
+}
