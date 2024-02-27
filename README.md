@@ -69,25 +69,38 @@ These are the resources for the [Knoxville M365 Community Day](https://community
 ## Directories
 
 ```
-|-M365CD032024
-| |-custom-pages
-| | |-css
-| | | |-style.css
-| | |-images
-| | | |-image.jpg
-| | |-unified.html
-| |-custom-policy
-| | |-ProgressivProfilePolicy
-| | | |-B2C_1A_ProgressiveProfileTrustFrameworkBase.xml
-| | | |-ProgressiveProfileSignUpOrSignin.xml
-| | | |-ProgressiveProfileTrustFrameworkExtensions.xml
-| | |-SignUpOrSignin.xml
-| | |-TrustFrameworkBase.xml
-| | |-TrustFrameworkExtensions.xml
-| |-function-app
-| | |-AddUserToTableStorage.js
-| |-presentation
-| | |-Simplify Customer Identity Access Management (CIAM).pptx
+│
+├───custom-pages
+│   │   unified.html
+│   │
+│   ├───css
+│   │       style.css
+│   │
+│   └───images
+│           image.jpg
+│
+├───custom-policy
+│   │   SignUpOrSignin.xml
+│   │   TrustFrameworkBase.xml
+│   │   TrustFrameworkExtensions.xml
+│   │
+│   └───ProgressiveProfilePolicy
+│           B2C_1A_ProgressiveProfileTrustFrameworkBase.xml
+│           ProgressiveProfileSignUpOrSignin.xml
+│           ProgressiveProfileTrustFrameworkExtensions.xml
+│
+├───function-app
+│       AddUserToTableStorage.js
+│
+├───presentation
+│       Simplify Customer Identity Access Management (CIAM).pptx
+│
+└───src
+    └───assets
+        └───img
+                km365.jpg
+                logo-full.png
+                presentation-screenshot.png
 
 ```
 
@@ -109,17 +122,9 @@ These are the resources for the [Knoxville M365 Community Day](https://community
 
 - the session presentation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### src
 
-## GitFlow
-
-Desired changes to the repo should be done with a feature branch and an associated PR:
-
-1. Clone the Project
-2. Create your Feature Branch (e.g. `git checkout -b feature/AmazingNewFeature`)
-3. Commit your Changes (e.g. `git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (e.g. `git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- `README.md` resources
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
