@@ -54,8 +54,9 @@ These are the resources for the [Knoxville M365 Community Day](https://www.commu
 ## Directories
 
 ```
-
 │
+├───notebook
+│       M365 Community Day 2025.onepkg
 ├───presentation
 │       Power Up Your Personal and Professional Productivity with Agile Principles.pptx
 
